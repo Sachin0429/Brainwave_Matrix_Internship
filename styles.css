@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #4a90e2, #ffffff, #9b59b6); /* Blue shades, white, and red-violet */
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Darker text color */
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #9b59b6; /* Red-violet color on focus */
+}
+
+button {
+    padding: 10px;
+    background-color: #4a90e2; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3a80d2; /* Darker blue on hover */
+}
+
+.post {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background: #f9f9f9; /* Light grey background for posts */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+#auth-message {
+    color: red;
+    text-align: center;
+}
